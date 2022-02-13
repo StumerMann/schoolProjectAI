@@ -53,7 +53,7 @@ def send_video(txt, id, source):
                 )
 
 
-id_list = [582508695, 170026886] # айди людей, которые могут пользоваться ботом
+id_list = [] # айди людей, которые могут пользоваться ботом
 user_list = []
 detector = ObjectDetection()
 detector.setModelTypeAsYOLOv3()
